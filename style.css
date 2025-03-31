@@ -40,7 +40,6 @@ card{
 
 button{
 	flex: 1; /* The buttons use the free space */
-  	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 0.5rem;
@@ -51,6 +50,18 @@ button{
   	border-radius: 1rem;
 	padding: 1rem 2rem;
 	transition: background-color 0.3s, transform 0.2s;
+}
+
+@media screen and (orientation: landscape) {
+	button{
+		display: flex;
+		text-size: 10px;
+}
+
+@media screen and (orientation: portrait) {
+	button{
+		display: column;
+		text-size: 10px;
 }
   
 button:active{
