@@ -31,12 +31,6 @@ card{
 .image{
 	border-radius: 10rem;
 }
-	  	
-.button-container{
-	display: flex;justify-content: space-between;
-	gap: 1rem; /* Space between buttons */
-	margin: 0; /* Adjust the margin */*
-}
 
 button{
 	flex: 1; /* The buttons use the free space */
@@ -53,17 +47,23 @@ button{
 }
 
 @media screen and (orientation: landscape) {
-	button{
+	.button-container{
 		display: flex;
-		text-size: 10px;
+		justify-content: space-between;
+		gap: 1rem; /* Space between buttons */
+		margin: 0; /* Adjust the margin */*
+	}
 }
 
 @media screen and (orientation: portrait) {
-	button{
+	.button-container{
 		display: column;
-		text-size: 10px;
+		justify-content: space-between;
+		gap: 1rem; /* Space between buttons */
+		margin: 0; /* Adjust the margin */*
+	}
 }
-  
+
 button:active{
 	background-color: #5a18c9;
 	transform: scale(0.95);
