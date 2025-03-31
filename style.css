@@ -44,7 +44,6 @@ button{
 	padding: 1rem 2rem;
 	transition: background-color 0.3s, transform 0.2s;
 	font-size: 10;
-	font-style: bold;
 	font-family: "Tektur";
 }
 
