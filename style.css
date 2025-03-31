@@ -44,13 +44,18 @@ button{
 	padding: 1rem 2rem;
 	transition: background-color 0.3s, transform 0.2s;
 	font-size: 10
+}
+
+#Bouton-Invitation-Serveur-Discord{
 	background: url(https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66315deb32012c249564aab3_Header_7.png);
 	background-position: center;
 }
 
-#Bouton-Invitation-Serveur-Discord{
-	
+#Bouton-Formulaire−Google-Drive{
+	background-color: blue;
 }
+
+
 
 @media screen and (orientation: landscape) {
 	.button-container{
