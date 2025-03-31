@@ -1,73 +1,71 @@
 body{
-	  		background: url(https://wallpapers.com/images/hd/youtube-background-ezou9wzqzl3iscer.jpg);
-  			padding: 2rem
-			
-	  	}
+	background: url(https://wallpapers.com/images/hd/youtube-background-ezou9wzqzl3iscer.jpg);
+	padding: 2rem;
+}
 
-  		.en-tête{
-			color: white;
-		  	font-family: "Rowdies", serif;
-	  		padding: 2rem 2rem 2rem 2rem;
-  			background: url(https://yt3.googleusercontent.com/fNLJavhgAIsKj56X0pqVOBti7wzM_OVqOANqEixEEtZtVhF9FULe9NgNWDGI-a-HEttqOLve0ts=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
-	  		background-size: cover;
-  			border-radius: 2rem 2rem 0rem 0rem;
-			text-align: center;
-		  	box-shadow: 0 0 1rem rgb(0 0 0)
-			font-weight: bold;
-	  	}
+.en-tête{
+	color: white;
+	font-family: "Rowdies", serif;
+	padding: 2rem 2rem 2rem 2rem;
+	background: url(https://yt3.googleusercontent.com/fNLJavhgAIsKj56X0pqVOBti7wzM_OVqOANqEixEEtZtVhF9FULe9NgNWDGI-a-HEttqOLve0ts=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
+	background-size: cover;
+	border-radius: 2rem 2rem 0rem 0rem;
+	text-align: center;
+	box-shadow: 0 0 1rem rgb(0 0 0)
+	font-weight: bold;
+}
+
+.body{
+	font-family: "Montserrat", serif;
+	padding: 1rem 1.5rem 1rem 1.5rem;
+	display: block;
+	background-color: white;
+  	border-radius: 0rem 0rem 2rem 2rem;
+	box-shadow: 0 0 1rem rgb(0 0 0);
+}
+ 	
+card{
+	padding: 1rem;
+}
+	
+.image{
+	border-radius: 10rem;
+}
 	  	
-		  .body{
-			font-family: "Montserrat", serif;
-			padding: 1rem 1.5rem 1rem 1.5rem;
-		  	display: block;
-	  		background-color: white;
-  			border-radius: 0rem 0rem 2rem 2rem;
-			box-shadow: 0 0 1rem rgb(0 0 0)
-		  }
-	  	
-  		card{
-			padding: 1rem
-		  }
-	  	
-  		.image{
-			border-radius: 10rem
-		  }
-	  	
-  		.button-container{
-		  	display: flex;
-	  		justify-content: space-between;
-			gap: 1rem; /* Space between buttons */
-		  	margin: 0; /* Adjust the margin */
-	  	}
+.button-container{
+	display: flex;justify-content: space-between;
+	gap: 1rem; /* Space between buttons */
+	margin: 0; /* Adjust the margin */*
+}
+
+button{
+	flex: 1; /* The buttons use the free space */
+  	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+  	border-color: transparent;
+	background-color: #7b2aeb;
+	color: white;
+	font-family: "Montserrat";
+  	border-radius: 1rem;
+	padding: 1rem 2rem;
+	transition: background-color 0.3s, transform 0.2s;
+}
   
-		  button{
-	  		flex: 1; /* The buttons use the free space */
-  			display: flex;
-			align-items: center;
-		  	justify-content: center;
-	  		gap: 0.5rem;
-  			border-color: transparent;
-			background-color: #7b2aeb;
-		  	color: white;
-	  		font-family: "Montserrat";
-  			border-radius: 1rem;
-			padding: 1rem 2rem;
-		  	transition: background-color 0.3s, transform 0.2s;
-	  	}
+button:active{
+	background-color: #5a18c9;
+	transform: scale(0.95);
+}
   
-  		button:active{
-			background-color: #5a18c9;
-		  	transform: scale(0.95);
-	  	}
+button:hover{
+	background-color: #964ff0;
+}
   
-	  	button:hover{
-		  	background-color: #964ff0;
-	  	}
-  
-  		button i{
-		  	font-size: 1.2rem;
-	  	}
+button i{
+	font-size: 1.2rem;
+}
 		
-	  	a{
-			color: purple;
-		}
+a{
+	color: purple;
+}
