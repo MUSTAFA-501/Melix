@@ -3,18 +3,16 @@ body{
 	padding: 2rem;
 }
 
-.en-tête .image{
+.en-tête{
 	color: white;
-	font-family: Prompt", sans-serif;
+	font-family: "Rowdies", serif;
 	padding: 2rem 2rem 2rem 2rem;
 	background: url(https://yt3.googleusercontent.com/fNLJavhgAIsKj56X0pqVOBti7wzM_OVqOANqEixEEtZtVhF9FULe9NgNWDGI-a-HEttqOLve0ts=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
 	background-size: cover;
 	border-radius: 2rem 2rem 0rem 0rem;
 	text-align: center;
-	box-shadow: 0 0 1rem rgb(0 0 0);
+	box-shadow: 0 0 1rem rgb(0 0 0)
 	font-weight: bold;
-	display: inline-block
-	vertical-align: middle;
 }
 
 .body{
@@ -69,5 +67,5 @@ button i{
 }
 		
 a{
-	color: red;
+	color: purple;
 }
