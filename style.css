@@ -47,6 +47,11 @@ button{
 	font-size: 10
 }
 
+#Bouton-Invitation-Serveur-Discord{
+	background: url(https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66315deb32012c249564aab3_Header_7.png);
+	background-position: center;
+}
+
 @media screen and (orientation: landscape) {
 	.button-container{
 		display: flex;
