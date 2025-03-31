@@ -44,6 +44,7 @@ button{
   	border-radius: 1rem;
 	padding: 1rem 2rem;
 	transition: background-color 0.3s, transform 0.2s;
+	font-size: 10
 }
 
 @media screen and (orientation: landscape) {
@@ -51,7 +52,9 @@ button{
 		display: flex;
 		justify-content: space-around;
 		gap: 1rem; /* Space between buttons */
-		margin: 0; /* Adjust the margin */*
+		margin: 0; /* Adjust the margin */
+		font-size: 11px;
+		
 	}
 }
 
@@ -62,7 +65,8 @@ button{
 		justify-content: space-around;
 		align-items: scretch;
 		gap: 1rem; /* Space between buttons */
-		margin: 0; /* Adjust the margin */*
+		margin: 0; /* Adjust the margin */
+		font-size: 13px;
 	}
 }
 
