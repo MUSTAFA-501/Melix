@@ -3,7 +3,7 @@ body{
 	padding: 2rem;
 }
 
-.en-tête{
+.en-tête .image{
 	color: white;
 	font-family: Prompt", sans-serif;
 	padding: 2rem 2rem 2rem 2rem;
@@ -13,6 +13,8 @@ body{
 	text-align: center;
 	box-shadow: 0 0 1rem rgb(0 0 0);
 	font-weight: bold;
+	display: inline-block
+	vertical-align: middle;
 }
 
 .body{
