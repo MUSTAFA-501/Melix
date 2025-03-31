@@ -44,17 +44,20 @@ button{
 	padding: 1rem 2rem;
 	transition: background-color 0.3s, transform 0.2s;
 	font-size: 10;
+}
+
+#Bouton-Invitation-Serveur-Discord{
+	background: url(https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66315deb32012c249564aab3_Header_7.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-#Bouton-Invitation-Serveur-Discord{
-	background: url(https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66315deb32012c249564aab3_Header_7.png);
-}
-
 #Bouton-Formulaire−Google-Drive{
 	background: url(https://static1.anpoimages.com/wordpress/wp-content/uploads/2023/01/google-drive-ap-hero-1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 @media screen and (orientation: landscape) {
