@@ -29,6 +29,11 @@ body{
 card{
 	padding: 1rem;
 }
+
+.2nde{
+	margin-top: 1rem;
+	border-radius: 1rem
+}
 	
 .image{
 	border-radius: 10rem;
