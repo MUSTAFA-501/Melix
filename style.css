@@ -1,104 +1,13 @@
-body{
-	background: url(https://wallpapers.com/images/hd/youtube-background-ezou9wzqzl3iscer.jpg);
-	padding: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color-scheme: light dark;
 }
 
-.en-tête{
-	color: white;
-	font-family: "Prompt", serif;
-	padding: 2rem 2rem 2rem 2rem;
-	background: url(https://yt3.googleusercontent.com/fNLJavhgAIsKj56X0pqVOBti7wzM_OVqOANqEixEEtZtVhF9FULe9NgNWDGI-a-HEttqOLve0ts=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	border-radius: 2rem 2rem 0rem 0rem;
-	text-align: center;
-	box-shadow: 0 0 1rem rgb(0 0 0)
-	font-weight: bold;
-}
-
-.body{
-	font-family: "Montserrat", serif;
-	padding: 1rem 1.5rem 1rem 1.5rem;
-	display: block;
-	background-color: white;
-  	border-radius: 0rem 0rem 2rem 2rem;
-	box-shadow: 0 0 1rem rgb(0 0 0);
-}
- 	
-card{
-	padding: 1rem;
-}
-	
-.image{
-	border-radius: 10rem;
-}
-
-button{
-	flex: 1; /* The buttons use the free space */
-	align-items: center;
-	justify-content: center;
-	gap: 0.5rem;
-  	border-color: transparent;
-	color: white;
-	font-family: "Montserrat";
-  	border-radius: 1rem;
-	padding: 1rem 2rem;
-	transition: background-color 0.3s, transform 0.2s;
-	font-size: 10;
-	font-family: "Tektur";
-}
-
-#Bouton-Invitation-Serveur-Discord{
-	background: url(https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66315deb32012c249564aab3_Header_7.png);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#Bouton-Formulaire−Google-Drive{
-	background: url(https://static1.anpoimages.com/wordpress/wp-content/uploads/2023/01/google-drive-ap-hero-1.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-@media screen and (orientation: landscape) {
-	.button-container{
-		display: flex;
-		justify-content: space-around;
-		gap: 1rem; /* Space between buttons */
-		margin: 0; /* Adjust the margin */
-		font-size: 11px;
-		height: 100px;	
-	}
-}
-
-@media screen and (orientation: portrait) {
-	.button-container{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		align-items: scretch;
-		gap: 1rem; /* Space between buttons */
-		margin: 0; /* Adjust the margin */
-		font-size: 13px;
-	}
-}
-
-button:active{
-	background-color: #5a18c9;
-	transform: scale(0.95);
-}
-  
-button:hover{
-	background-color: #964ff0;
-}
-  
-button i{
-	font-size: 1.2rem;
-}
-		
-a{
-	color: red;
+body {
+  align-content: center;
+  text-align: center;
 }
